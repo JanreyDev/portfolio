@@ -1,9 +1,10 @@
-import React from 'react'
+import { Navigation } from "./components/navigation";
 
-const page = () => {
+
+export default function Page() {
   return (
-    <div>page</div>
+    <main className="min-h-screen">
+      <Navigation />
+    </main>
   )
 }
-
-export default page
