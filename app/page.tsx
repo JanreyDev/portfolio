@@ -3,6 +3,7 @@ import { HeroSection } from "./components/hero-section";
 import { Navigation } from "./components/navigation";
 import { ProjectsSection } from "./components/projects-section";
 import { ServicesSection } from "./components/services-section";
+import { SkillsSection } from "./components/skills-section";
 
 
 export default function Page() {
@@ -13,6 +14,7 @@ export default function Page() {
       <AboutSection />
       <ServicesSection />
       <ProjectsSection />
+      <SkillsSection />
     </main>
   )
 }
