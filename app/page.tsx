@@ -1,6 +1,7 @@
 import { AboutSection } from "./components/about-section";
 import { HeroSection } from "./components/hero-section";
 import { Navigation } from "./components/navigation";
+import { ServicesSection } from "./components/services-section";
 
 
 export default function Page() {
@@ -9,6 +10,7 @@ export default function Page() {
       <Navigation />
       <HeroSection />
       <AboutSection />
+      <ServicesSection />
     </main>
   )
 }
