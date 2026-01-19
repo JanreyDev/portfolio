@@ -1,11 +1,11 @@
 // contact-section.tsx
 "use client"
 
-import { Button } from "@/components/ui/button"
 import { Mail, MapPin, Phone } from "lucide-react"
 import { Card } from "./ui/card"
 import { Textarea } from "./ui/textarea"
 import { Input } from "./ui/input"
+import { Button } from "./ui/button"
 
 export function ContactSection() {
     const handleSubmit = (e: React.FormEvent) => {
