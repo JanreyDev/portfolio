@@ -16,7 +16,7 @@ export default function Page() {
       <ServicesSection />
       <ProjectsSection />
       <SkillsSection />
-
+      <ContactSection />
     </main>
   )
 }
